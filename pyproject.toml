@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "document-qa-chatbot-using-llama-3-and-groq"
+version = "0.1.0"
+description = "Document QA Chatbot Using LLama 3 and Groq API"
+authors = ["Supriyo Chowdhury <chowdhurysupriyo99@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.12"
+pandas = "^2.2.2"
+numpy = ">=1,<2"
+matplotlib = "^3.9.1"
+seaborn = "^0.13.2"
+streamlit = "^1.37.0"
+langchain = "^0.2.11"
+langchain-groq = "^0.1.9"
+langchain-openai = "^0.1.20"
+langchain-core = "^0.2.26"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.2.10"
+faiss-cpu = "^1.8.0.post1"
+pypdf = "^4.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
